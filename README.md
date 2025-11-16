@@ -107,28 +107,7 @@ A second table, `final_beverage_summary`, aggregates revenue and quantity by yea
 - Calculated fields and business rule implementation  
 - Data modeling and table consolidation  
 - Aggregation, grouping, and KPI creation  
-- Turning raw data into clear analytical outputs  
-
----
-
-## How to Reproduce
-
-1. Clone the repository.  
-2. Run the setup script that contains the Category and Org Chart tables.  
-3. Run the main ETL SQL script in MySQL Workbench.  
-4. Export the summary tables as CSV files.  
-5. Load the final summary data into Tableau or Power BI to recreate the dashboard.
-
----
-
-## Repository Contents
-
-| File | Description |
-|------|-------------|
-| `G1_Script1.sql` | Full SQL ETL script, including extraction, transformation, and loading |
-| `Beverages-R-Us-Visualization.jpg` | Dashboard with final visual analysis |
-| `G1_consolidated_beverage_data.csv` | Consolidated dataset after cleaning |
-| `G1_output_final.csv` | Final grouped summary table |
+- Turning raw data into clear analytical outputs
 
 ---
 
